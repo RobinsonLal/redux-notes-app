@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import '../components/CreateNote.css'
+
 import {useDispatch} from 'react-redux'
 import { createNote } from '../redux/slices/noteSlice'
 
@@ -19,11 +21,11 @@ function CreateNote() {
     }
 
   return (
-    <div>
+    <div className='mainContainer' >
         <form onSubmit={handleSubmit} >
-        <input placeholder='Title' type="text" onChange={(e) => {setTitle(e.target.value)}} />
-        <input placeholder='Description' type="text" onChange={(e) => {setDesc(e.target.value)}} />
-        <input type="submit" onClick={handleSubmit} />
+        <input className='title' placeholder='Title' type="text" onChange={(e) => {setTitle(e.target.value)}} />
+        <input className='description' placeholder='Description' type="text" onChange={(e) => {setDesc(e.target.value)}} />
+        <input className='submitButton' type="submit" onClick={handleSubmit} />
         </form>
     </div>
   )

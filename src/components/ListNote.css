@@ -1,0 +1,26 @@
+.noteCard {
+  width: 90%;
+  margin-inline: auto;
+  background-color: #ffffff;
+  color: #2c3e50;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.noteCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.noteCard h2 {
+  color: #1a252f;
+}
+
+.noteCard p {
+  color: #5d6d7e;
+  line-height: 1.5;
+}

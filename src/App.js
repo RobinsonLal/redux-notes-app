@@ -5,8 +5,8 @@ import ListNote from './components/ListNote';
 
 function App() {
   return (
-    <div>
-      Hello Redux App
+    <div className='appContainer' >
+      <h1>Notes Application</h1>
       <CreateNote/>
       <ListNote/>
     </div>

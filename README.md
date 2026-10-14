@@ -2,6 +2,8 @@
 
 A lightweight, scalable note-taking web application built with **React** and **Redux Toolkit (RTK)** to demonstrate modern centralized state management, action dispatching, and unidirectional data flow patterns.
 
+![App Preview 1](./src/assets/Screenshot%20(338).png)
+
 ---
 
 ## 🚀 Key Features

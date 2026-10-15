@@ -2,26 +2,30 @@
 
 A lightweight, scalable note-taking web application built with **React** and **Redux Toolkit (RTK)** to demonstrate modern centralized state management, action dispatching, and unidirectional data flow patterns.
 
-![App Preview 1](./src/assets/Screenshot%20(338).png)
+![App Preview 1](<./src/assets/Screenshot%20(338).png>)
 
 ---
 
 ## 🚀 Key Features
 
-* **Centralized State Management:** Manages global note state using Redux Toolkit slices (`noteSlice.js`).
-* **Dynamic Action Dispatching:** Captures form inputs locally and dispatches actions via `useDispatch` to update the global store without prop drilling.
-* **Reactive UI Rendering:** Uses `useSelector` to automatically read from the global Redux store and re-render components in real time upon state updates.
-* **Modular Architecture:** Clean separation of UI components and Redux logic.
+- **Centralized State Management:** Manages global note state using Redux Toolkit slices (`noteSlice.js`).
+- **Dynamic Action Dispatching:** Captures form inputs locally and dispatches actions via `useDispatch` to update the global store without prop drilling.
+- **Reactive UI Rendering:** Uses `useSelector` to automatically read from the global Redux store and re-render components in real time upon state updates.
+- **Modular Architecture:** Clean separation of UI components and Redux logic.
 
 ---
 
 ## 🛠️ Tech Stack & Dependencies
 
-* **Frontend:** React.js (Hooks, Functional Components)
-* **State Management:** `@reduxjs/toolkit`, `react-redux`
-* **Styling:** CSS3
+- **Frontend:** React.js (Hooks, Functional Components)
+- **State Management:** `@reduxjs/toolkit`, `react-redux`
+- **Styling:** CSS3
 
 ---
+
+## Live Demo
+
+🔗 [View Project](https://redux-notes-app-robinson.netlify.app)
 
 ## 📂 Project Structure
 
@@ -43,3 +47,4 @@ redux-notes-app/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
